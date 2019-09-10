@@ -2,6 +2,7 @@ name: Report
 on:
   push:
   release:
+    types: [published]
   schedule:
   - cron: 0 16 28 * *
 

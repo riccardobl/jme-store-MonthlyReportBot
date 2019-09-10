@@ -38,7 +38,7 @@ jobs:
           echo "Post!"
         fi        
         cd app
-        ./run.sh
+        ./run.sh ${API_USER} ${API_KEY}
 
     - name: Update data
       if: github.event_name != 'push'

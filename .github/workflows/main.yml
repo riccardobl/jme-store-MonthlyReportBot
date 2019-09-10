@@ -29,7 +29,13 @@ jobs:
       env:
           HEADLESS: 1
       run: |
-        if [ "$GITHUB_EVENT_NAME" = "push" ];then export API_KEY=""; fi
+        if [ "$GITHUB_EVENT_NAME" = "push" ];
+        then 
+          export API_KEY=""
+        else
+          export API_KEY="${{ secrets.DISCOURSE_API }}"
+          export API_USER="${{ secrets.DISCOURSE_USER }}"
+        fi        
         cd app
         ./run.sh
 

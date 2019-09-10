@@ -2,7 +2,6 @@ name: Report
 on:
   push:
   release:
-      type: [created]
   schedule:
   - cron: 0 16 28 * *
 
@@ -27,19 +26,22 @@ jobs:
 
     - name: Run
       env:
+          DISCOURSE_API: "${{ secrets.DISCOURSE_API }}"
+          API_USER: "${{ secrets.DISCOURSE_USER }}"
           HEADLESS: 1
       run: |
+        echo "On Event $GITHUB_EVENT_NAME"
         if [ "$GITHUB_EVENT_NAME" = "push" ];
         then 
           export API_KEY=""
         else
-          export API_KEY="${{ secrets.DISCOURSE_API }}"
-          export API_USER="${{ secrets.DISCOURSE_USER }}"
+          echo "Post!"
         fi        
         cd app
         ./run.sh
 
     - name: Update data
+      if: github.event_name != 'push'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -54,4 +56,5 @@ jobs:
         git add -f src/data/report.md
         git commit -m "Update data - `date`"
         header=$(echo -n "ad-m:${GITHUB_TOKEN}" | base64)
-        git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:run --force
+        (git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:run --force) || true
+        exit 0

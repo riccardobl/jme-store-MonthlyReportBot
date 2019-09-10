@@ -27,7 +27,7 @@ jobs:
 
     - name: Run
       env:
-          DISCOURSE_API: "${{ secrets.DISCOURSE_API }}"
+          API_KEY: "${{ secrets.DISCOURSE_API }}"
           API_USER: "${{ secrets.DISCOURSE_USER }}"
           HEADLESS: 1
       run: |

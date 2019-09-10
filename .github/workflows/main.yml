@@ -1,0 +1,51 @@
+name: Report
+on:
+  push:
+  release:
+      type: [created]
+  schedule:
+  - cron: 0 16 28 * *
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04    
+    steps:
+  
+    - name: Clone
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name "GithubActions"
+        git config --global user.email "actions@robot.frk.wf"
+        git clone https://github.com/${GITHUB_REPOSITORY}.git app
+        cd app
+        git fetch origin run:run
+        git checkout $GITHUB_SHA
+        git checkout run -- src/data/data.json
+        git checkout run -- src/data/report.md
+        
+
+    - name: Run
+      env:
+          HEADLESS: 1
+      run: |
+        if [ "$GITHUB_EVENT_NAME" = "push" ];then export API_KEY=""; fi
+        cd app
+        ./run.sh
+
+    - name: Update data
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        cd app
+        cp src/data/data.json ..
+        cp src/data/report.md ..
+        git reset --hard HEAD
+        git checkout run
+        mv -f ../data.json src/data/data.json
+        mv -f ../report.md src/data/report.md        
+        git add -f src/data/data.json
+        git add -f src/data/report.md
+        git commit -m "Update data - `date`"
+        header=$(echo -n "ad-m:${GITHUB_TOKEN}" | base64)
+        git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:run --force

@@ -135,7 +135,7 @@ async function main(){
                     },
                 })
                 .then(res => res.json())
-                if(status.status!=200){
+                if(status.errors){
                     console.log(status);
                     throw new Error("Can't post on discourse");
                 }

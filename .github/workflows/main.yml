@@ -57,5 +57,5 @@ jobs:
         git add -f src/data/report.md
         git commit -m "Update data - `date`"
         header=$(echo -n "ad-m:${GITHUB_TOKEN}" | base64)
-        (git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:run --force) || true
+        (git -c http.extraheader="AUTHORIZATION: basic $header" push origin run --force) || true
         exit 0

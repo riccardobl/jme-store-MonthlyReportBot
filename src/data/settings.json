@@ -7,7 +7,7 @@
     "assetUrl": "https://jmonkeystore.com/$ID",
     "postOnDiscourse": true,
     "discourseWidth": 640,
-    "discourseCategoryId": 59,
+    "discourseCategoryId": 60,
     "discourseApiKey":"env",
     "discourseApiUsername":"env",
     "discoursePostEndPoint":"https://hub.jmonkeyengine.org/posts.json",

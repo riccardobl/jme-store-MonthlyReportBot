@@ -5,6 +5,7 @@ Run locally with docker:
 ```bash
 ./run.sh
 ```
+The report will be generated in src/data/report.md
 
 Run and post to discourse:
 

@@ -1,42 +1,16 @@
-# New on the [asset store](https://jmonkeystore.com) - 10 September 2019
+# New on the [asset store](https://jmonkeystore.com) - 28 September 2019
 
 ________
 
 <div align='center'>
 
-[<img title='Occlusion Parallax Mapping' alt='Occlusion Parallax Mapping' src='https://jmonkeystore.com/image/rRIW2jmkD2rQ' width='128' />](https://jmonkeystore.com/47eff34e-1822-423b-9065-d3ab4320ac5e)[<img title='Editable IsoSurface' alt='Editable IsoSurface' src='https://jmonkeystore.com/image/RR5DQfccnKw2' width='128' />](https://jmonkeystore.com/3624e24f-0f6c-4d09-ad6c-c1d23cf9246b)[<img title='ShaderBlowLib' alt='ShaderBlowLib' src='https://jmonkeystore.com/image/du3feCRUZ20y' width='128' />](https://jmonkeystore.com/8e001fc5-f8c7-4567-b307-16c843410865)[<img title='DDSWriter' alt='DDSWriter' src='https://jmonkeystore.com/image/ktFxsDYSrCAq' width='128' />](https://jmonkeystore.com/beeb3763-8821-4205-9bbd-b095274703f4)[<img title='VHACD: Fast mesh accurate collision shapes' alt='VHACD: Fast mesh accurate collision shapes' src='https://jmonkeystore.com/image/IC1oZ72sIdpR' width='128' />](https://jmonkeystore.com/b8a9a30f-d338-4657-b1f2-d637f8c2e34c)
+[<img title='True Type Font Rendering Library' alt='True Type Font Rendering Library' src='https://jmonkeystore.com/image/H8vdBuGwRI9E' width='640' />](https://jmonkeystore.com/98ac60a5-6057-4180-b2aa-e6279ee92248)
 
 </div>
 
 ________
 
-**[Occlusion Parallax Mapping](https://jmonkeystore.com/47eff34e-1822-423b-9065-d3ab4320ac5e)**:  Displace textures to simulate reliefs without additional geometry. Faster/better steep parallax. - *RiccardoBlb*
-
-**[Editable IsoSurface](https://jmonkeystore.com/3624e24f-0f6c-4d09-ad6c-c1d23cf9246b)**:  A  realtime multi-threaded IsoSurface editor using voxel brushes and multiple materials. - *jayfella*
-
-**[ShaderBlowLib](https://jmonkeystore.com/8e001fc5-f8c7-4567-b307-16c843410865)**:  A sleauth of shaders for jMonkeyEngine - *jayfella*
-
-**[DDSWriter](https://jmonkeystore.com/beeb3763-8821-4205-9bbd-b095274703f4)**:  Save Texture2D, TextureCubeMap and Texture3D into compressed and uncompressed DDS files. Generate mipmaps with proper sRGB handling. - *RiccardoBlb*
-
-**[VHACD: Fast mesh accurate collision shapes](https://jmonkeystore.com/b8a9a30f-d338-4657-b1f2-d637f8c2e34c)**:  A library that binds VHACD to create fast mesh accurate collision shapes by decomposing concave meshes into composite hull shapes that can be used with bullet. - *RiccardoBlb*
-
-**[Materialize Shader](https://jmonkeystore.com/964eda6d-d33a-4116-ac87-4862b1b8f3d0)**:  A "materialize" shader for jmonkeyengine that simulates "materializing" an object in or out. - *jayfella*
-
-**[Advanced Vehicles](https://jmonkeystore.com/3de43b72-ddd9-4fd1-b653-ac79cc56df4e)**:  An advanced implementation of vehicles for jMonkeyEngine. - *jayfella*
-
-**[FocusCamera](https://jmonkeystore.com/6ed7af21-d4d7-48e3-9614-e0341180eb7c)**:  A jMonkey AppState that focuses on a given spatial. You can then rotate around it and zoom. You can also optionally offset the focus point. - *jayfella*
-
-**[Calendar](https://jmonkeystore.com/daee0868-b2d6-41e2-9975-3a4e223a423a)**:  Add a calendar to your game! Includes time, day, month, year and time multiplier. - *jayfella*
-
-**[MiniMap](https://jmonkeystore.com/f6aa07d9-49ba-49a1-9405-c8ba6c8deadc)**:  Displays a minimap in the corner of your game window. - *jayfella*
-
-**[Hologram Shader](https://jmonkeystore.com/5f57487e-eb02-443c-9c77-bf69e43a92f8)**:  Shader for displaying sci-fi holographic objects - *grizeldi*
-
-**[JavaFX 11](https://jmonkeystore.com/e7f8410d-656e-4c16-b4de-996e69bad535)**:  A JavaFX bridge for Jmonkeyengine using Java 11 - *jayfella*
-
-**[World Pager](https://jmonkeystore.com/02e726a8-8de8-49a1-aded-f538a2333f75)**:  An infinite world generator for JmonkeyEngine - *jayfella*
-
-**[FastNoise](https://jmonkeystore.com/e6523099-f665-4b65-9b1c-f24a044c4631)**:  An extensive noise library for generating 2D noise in jmonkeyengine. - *jayfella*
+**[True Type Font Rendering Library](https://jmonkeystore.com/98ac60a5-6057-4180-b2aa-e6279ee92248)**:  jME-TTF is a true type font rendering library enabling your application to render text characters directly from true type font (.ttf) files at runtime. - *Tryder*
 
 ______
 

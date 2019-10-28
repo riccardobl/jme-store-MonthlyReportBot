@@ -1,16 +1,36 @@
-# New on the [asset store](https://jmonkeystore.com) - 28 September 2019
+# New on the [asset store](https://jmonkeystore.com) - 28 October 2019
 
 ________
 
 <div align='center'>
 
-[<img title='True Type Font Rendering Library' alt='True Type Font Rendering Library' src='https://jmonkeystore.com/image/H8vdBuGwRI9E' width='640' />](https://jmonkeystore.com/98ac60a5-6057-4180-b2aa-e6279ee92248)
+[<img title='Holo Shader' alt='Holo Shader' src='https://jmonkeystore.com/image/6wmIeOEPqWON' width='128' />](https://jmonkeystore.com/435ebd61-fbbc-4e10-a490-234c222b4312)[<img title='Customizable MiniMap' alt='Customizable MiniMap' src='https://jmonkeystore.com/image/K24VmeGN4LHC' width='128' />](https://jmonkeystore.com/32ac86d0-3857-442f-853e-f78ce90f3b36)[<img title='FocusCamera' alt='FocusCamera' src='https://jmonkeystore.com/image/MfIrPeYamcpX' width='128' />](https://jmonkeystore.com/8ac019eb-7e06-420d-8832-7858c6d3ddeb)[<img title='jme-jfx-11' alt='jme-jfx-11' src='https://jmonkeystore.com/image/E8nGPegOcEXO' width='128' />](https://jmonkeystore.com/431426f2-66ac-4e1d-a18e-0d0b6ef14a1e)[<img title='IntelliJ Integration' alt='IntelliJ Integration' src='https://jmonkeystore.com/image/pRJjDzz0eb3s' width='128' />](https://jmonkeystore.com/36feddc4-57d3-454f-b8b5-03fc8e2d0336)
 
 </div>
 
 ________
 
-**[True Type Font Rendering Library](https://jmonkeystore.com/98ac60a5-6057-4180-b2aa-e6279ee92248)**:  jME-TTF is a true type font rendering library enabling your application to render text characters directly from true type font (.ttf) files at runtime. - *Tryder*
+**[IntelliJ Integration](https://jmonkeystore.com/36feddc4-57d3-454f-b8b5-03fc8e2d0336)**:  Integrates jMonkeyEngine into the Intellij IDE - *jayfella*
+
+**[Easing Functions](https://jmonkeystore.com/54139a82-1b9e-42d5-911a-5c34121a7fc5)**:  A set of animation easing functions. - *jayfella*
+
+**[Holo Shader](https://jmonkeystore.com/435ebd61-fbbc-4e10-a490-234c222b4312)**:  Shader for displaying sci-fi holographic objects - *grizeldi*
+
+**[Modifiable IsoSurface](https://jmonkeystore.com/b1e21653-e7a0-4e73-86c8-9b7d89c552c7)**:  A tech demo of a realtime multi-threaded IsoSurface editor using voxel brushes and multiple materials. - *jayfella*
+
+**[Atmosphere](https://jmonkeystore.com/4605d4d9-4b8d-4d38-a3cf-75b00d226855)**:  A tech demo implementation of time, sky, clouds, cloud wind, sun, moon and moon phases. - *jayfella*
+
+**[Customizable MiniMap](https://jmonkeystore.com/32ac86d0-3857-442f-853e-f78ce90f3b36)**:  A customizable minimap AppState. - *jayfella*
+
+**[FocusCamera](https://jmonkeystore.com/8ac019eb-7e06-420d-8832-7858c6d3ddeb)**:  An AppState that focuses and rotates around a given spatial - *jayfella*
+
+**[Calendar](https://jmonkeystore.com/a088e4ff-363c-4566-9a26-adca08e76ce6)**:  A calendar for your game. - *jayfella*
+
+**[ShaderBlow: Materials and Filters](https://jmonkeystore.com/5a909f28-621f-403c-bb28-4306fb62b115)**:  A sleauth of shaders for jMonkeyEngine - *jayfella*
+
+**[jme-jfx-11](https://jmonkeystore.com/431426f2-66ac-4e1d-a18e-0d0b6ef14a1e)**:  A JavaFX 11 implementation for JmonkeyEngine that allows you to use a regular JavaFX GUI in your games. - *jayfella*
+
+**[Advanced Vehicles](https://jmonkeystore.com/4477514f-a3ae-4d42-b928-d3a62335159f)**:  An advanced implementation of vehicles for jMonkeyEngine. - *jayfella*
 
 ______
 
